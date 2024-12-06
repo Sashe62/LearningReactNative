@@ -29,7 +29,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: 'Tarjeta',
+          title: 'Squirtle Card',
           tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
           headerRight: () => (
             <Link href="/modal" asChild>
@@ -50,7 +50,14 @@ export default function TabLayout() {
       <Tabs.Screen
         name="two"
         options={{
-          title: 'Carta Pokémon',
+          title: 'Bulbasaur Card',
+          tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="three"
+        options={{
+          title: 'Charmander Card',
           tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
         }}
       />

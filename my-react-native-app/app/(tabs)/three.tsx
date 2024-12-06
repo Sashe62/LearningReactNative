@@ -2,20 +2,20 @@ import { StyleSheet } from 'react-native';
 import Card from '../../components/Card';
 import { View } from '../../components/Themed';
 
-export default function TabOneScreen() {
+export default function TabTwoScreen() {
   return (
     <View style={styles.container}>
       <Card
-        name = "Squirtle"
+        name = "Charmander"
         attacks= {
           [
-            { name: 'Water Gun', power: 40 },
-            { name: 'Tackle', power: 20 },
-            { name: 'Tail Whip', power: 0 },
+            { name: 'Ember', power: 40 },
+            { name: 'Metal claw', power: 20 },
+            { name: 'Growl', power: 0 },
           ]
         }
-        image= 'https://w0.peakpx.com/wallpaper/347/897/HD-wallpaper-anime-pokemon-squirtle-pokemon-water-pokemon-pokemon-the-first-movie.jpg'
-        color = '#6890F0'
+        image= 'https://www.dexerto.com/cdn-image/wp-content/uploads/2023/11/15/Pokemon-TCG-Charmander.jpg?width=1200&quality=60&format=auto'
+        color = '#F08030'
         HP = {50}
       />
     </View>
